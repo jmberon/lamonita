@@ -13,7 +13,7 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -38,6 +38,33 @@ nav ul {
 li {
     font-size: 10px;
     font-weight: bold;
+}
+
+li.domicilios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.domicilios img {
+    max-height: 35px;
+}
+
+li.domicilios span {
+    font-size: 24px;
+    margin-left: 0.5rem;
+    color: #0F8F2E;
+}
+
+hr {
+    width: 80px;
+    margin: 3rem auto;
+}
+
+section {
+    text-align: center;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
 }
 
 .whyhowwhat {
