@@ -63,8 +63,10 @@ hr {
 
 section {
     text-align: center;
-    /* margin-top: 2rem;
-    margin-bottom: 2rem; */
+}
+
+iframe {
+    margin-top: 2rem;
 }
 
 .whyhowwhat {
